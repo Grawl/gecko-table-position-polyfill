@@ -1,6 +1,6 @@
 # Gecko Table Cell Position Polyfill
 
-A polyfill for Gecko layout engine (i.e. Firefox) that let you use CSS `position` property on `display: table-cell` elements (i.e. `td`) without facing the #35168(https://bugzilla.mozilla.org/show_bug.cgi?id=35168) Firefox bug **opened in 2000 year, 14 years ago**.
+A polyfill for Gecko layout engine (i.e. Firefox) that let you use CSS `position` property on `display: table-cell` elements (i.e. `td`) without facing the [#35168](https://bugzilla.mozilla.org/show_bug.cgi?id=35168) Firefox bug **opened in 2000 year, 14 years ago**.
 
 ## Usage
 

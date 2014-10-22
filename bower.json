@@ -1,0 +1,32 @@
+{
+  "name": "gecko-table-position-polyfill",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Grawl/gecko-table-position-polyfill",
+  "authors": [
+    "Даниил Пронин <mail@grawl.ru>"
+  ],
+  "description": "A polyfill for Gecko layout engine (i.e. Firefox) that let you use CSS `position` property on `display: table-cell` elements (i.e. `td`) without facing the [#35168](https://bugzilla.mozilla.org/show_bug.cgi?id=35168) Firefox bug **opened in 2000 year, 14 years ago**.",
+  "main": "firefox-table-position-polyfill.js",
+  "keywords": [
+    "mozilla",
+    "firefox",
+    "gecko",
+    "polyfill",
+    "shim",
+    "display",
+    "table",
+    "cell",
+    "relative"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}

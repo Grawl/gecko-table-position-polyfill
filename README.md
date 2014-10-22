@@ -60,12 +60,18 @@ Actually `.gecko-cell-wrapper` will have `height` not exactly `127px`. It will b
 - jQuery *because original code uses it*
 - [Bowser](https://github.com/ded/bowser) *because this feature was cutted out from jQuery*
 
-## Install
+## Simple install
 
-Add a link to `firefox-table-position-polyfill.js` after dependencies and it will work.
+Download and add a link to `firefox-table-position-polyfill.js` after dependencies and it will work.
 
 ```html
 <script src='/path/to/firefox-table-position-polyfill.js'></script>
+```
+
+## Install via Bower
+
+```bash
+bower install -S gecko-table-position-polyfill
 ```
 
 ## TODO
